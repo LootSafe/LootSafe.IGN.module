@@ -5,7 +5,6 @@ contract IGN {
 
     mapping(address => bytes32) names;
     mapping(bytes32 => address) addresses;
-    mapping(bytes32 => uint128) inGameNameCount;
 
     function IGN () public {
         owner = msg.sender;
